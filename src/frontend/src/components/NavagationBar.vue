@@ -4,6 +4,7 @@
       <v-app-bar-nav-icon id="logo">icon</v-app-bar-nav-icon>
       <v-toolbar-title id="home-title">Devbie</v-toolbar-title>
       <v-spacer></v-spacer>
+      <a href="/oauth2/authorization/github">로그인</a>
       <v-btn text x-large><p class="navigation-menu">공고</p></v-btn>
       <v-btn text x-large><p class="navigation-menu">면접</p></v-btn>
       <v-btn large color="#E8E8E8" id="login-btn">Login with Github</v-btn>

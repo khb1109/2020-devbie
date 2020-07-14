@@ -8,6 +8,11 @@ module.exports = {
         target: "http://localhost:9000",
         ws: true,
         changeOrigin: true
+      },
+      "/oauth2": {
+        target: "http://localhost:9000",
+        ws: true,
+        changeOrigin: true
       }
     }
   }
